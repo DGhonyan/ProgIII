@@ -345,12 +345,12 @@ io.on('connection', function (socket) {
 
 setInterval(game, 50)
 
-// setInterval(addGrass, 3000)
-// setInterval(addGrassEater, 3000)
-// setInterval(addWaterfall, 3000)
-// setInterval(deleteWaterfall, 10000)
-// setInterval(addIdk, 2000)
-// setInterval(addOOI, 5000)
+setInterval(addGrass, 3000)
+setInterval(addGrassEater, 3000)
+setInterval(addWaterfall, 3000)
+setInterval(deleteWaterfall, 10000)
+setInterval(addIdk, 2000)
+setInterval(addOOI, 5000)
 
 
 var statistics = {};
