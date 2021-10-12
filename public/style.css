@@ -1,0 +1,99 @@
+
+button {
+  border: none;
+  color: #000000;
+  margin:10px 0px 0px 0px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#blue{
+	margin:10px 0px 0px 0px;
+	padding: 15px 32px;
+	background-color : #0D14D6 ;
+	color: white ;
+}
+
+#green{
+	margin:10px 0px 0px 0px;
+	padding: 15px 32px;
+	background-color: #299406 ;
+	color: white ;
+
+}
+
+#red{
+	margin:10px 0px 0px 0px;
+	padding: 15px 32px;
+	background-color: #D10408;
+	color: white ;
+
+}
+
+#black{
+	text-align: justify ;
+	padding: 15px 32px ;
+	background-color: #000000 ;
+	color: white ;
+
+}
+
+#coral{
+	margin:10px 0px 0px 0px;
+	padding: 15px 32px ;
+	background-color: coral ;
+}
+
+#ooi {
+	background-color: rgb(97, 6, 97);
+	color:white;
+}
+
+#winter{
+	background-color: #88c4d8;
+}
+
+#spring{
+	background-color: #25e235;
+}
+
+#summer{
+	background-color: #d2e009;
+}
+
+#autumn{
+	background-color: #e0a21a;
+}
+
+#flood{
+	background-color: rgb(11, 27, 80);
+	color:seashell;
+}
+
+#buttons{
+	padding-top: 0px ;
+	padding-bottom: 20px ;
+}
+
+#all {
+	display:flex;
+	justify-content:space-between;
+}
+
+#count span{
+	border: 2px solid purple;
+	font-size:30px;
+	font-family:Arial;
+}
+
+#count{
+	margin-right: 350px ;
+}
+
+#buttons span{
+	font-size:10px;
+	font-family:Arial;
+}

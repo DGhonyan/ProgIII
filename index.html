@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel = 'stylesheet' href = '/public/style.css'>
+    <title>Document</title>
+</head>
+<body>
+    <div id = 'all'>
+        <div id = 'buttons'>
+            <button id = 'blue' onclick = "addWaterfall()">Add waterfall</button>
+            <button id='blue2' onclick = "deleteWaterfall()">Delete waterfall (or just water)</button>
+            <button id = 'black' onclick = "addEater2()">Add black </button>
+            <button id = 'black2' onclick = "deleteEater2()">Delete black</button> 
+            <br>
+            <button id = 'red' onclick = "addGrassEater()">Add red</button>
+            <button id='red2' onclick = "deleteGrassEater()">Delete red</button>
+            <button id = 'green' onclick = "addGrass()">Add green</button>
+            <button id='green2' onclick = "deleteGrass()">Delete green</button>
+            <br>
+            <button id = 'coral' onclick = "addIdk()">Add coral</button>
+            <button id ='coral2' onclick = "deleteIdk()">Delete coral</button>
+            <button id = 'ooi' onclick = "addOOI()">Add explosive things</button>
+            <button id = 'kill' onclick = "kill()">Delete everything</button>
+            <br>
+            <button id = 'winter' onclick = "winter()">Weather to winter (the pretty one)</button>
+            <button id = 'spring' onclick = "spring()">Weather to spring</button>
+            <button id = 'summer' onclick = "summer()">Weather to summer</button>
+            <button id = 'autumn' onclick = "autumn()">Weather to autumn</button>
+            <br>
+            <button id = 'flood' onclick = "noahsFlood()">Drown worthless fools</button>
+            <br>
+            <span>Nearly everything is being called with setInterval anyway</span>
+        </div>
+        <div id = 'count'>
+            <span id = 'grass'></span>
+            <br>
+            <span id = 'eater'></span>
+            <br>
+            <span id = 'eater2'></span>
+            <br>
+            <span id = 'idk'></span>
+            <br>
+            <span id = 'OOI'></span>
+        </div>
+    </div>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+</body>
+</html>
